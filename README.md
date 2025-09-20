@@ -1,4 +1,4 @@
-# Movie Recommender System - Deep Learning Assignment 2
+# Movie Recommendation System
 
 ## Table of Contents
 
@@ -981,39 +981,6 @@ Each model generates six types of visualizations that provide comprehensive insi
 1. Compare patterns across all models' plots
 2. Focus on **autoencoder latent_space.png** for representation learning
 3. Use **validation_metrics.png** for statistical significance testing
-
-## Dependencies
-
-### Core Dependencies
-
-- **PyTorch (>=1.9.0)**: Primary deep learning framework
-- **NumPy (>=1.21.0)**: Numerical computing foundation
-- **Pandas (>=1.3.0)**: Data manipulation and analysis
-- **scikit-learn (>=1.0.0)**: Machine learning tools and evaluation metrics
-- **Matplotlib (>=3.4.0)**: Primary plotting library
-- **Seaborn (>=0.11.0)**: Statistical data visualization
-
-### Optional Dependencies
-
-- **Jupyter (>=1.0.0)**: Interactive development environment
-- **tqdm (>=4.62.0)**: Progress bar library
-- **TensorBoard (>=2.7.0)**: Training visualization (optional)
-
-### Installation Methods
-
-#### pip Installation (Recommended)
-```bash
-pip install torch torchvision numpy pandas scikit-learn matplotlib seaborn
-pip install jupyter tqdm tensorboard  # Optional dependencies
-```
-
-#### GPU Support Configuration
-For GPU acceleration, ensure CUDA is properly installed:
-```python
-import torch
-print(f"CUDA Available: {torch.cuda.is_available()}")
-print(f"GPU Count: {torch.cuda.device_count()}")
-```
 
 ---
 
